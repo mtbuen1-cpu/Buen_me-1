@@ -26,17 +26,28 @@ th {
     background-color: #f2f2f2;
     color: #333;
     font-family: Arial, sans-serif;
+    border: 1px solid black;
+    padding: 10px;
 }
+
 p.profile-info {
     font-weight: bold;
+    margin-bottom: 5px;
 }
+
 a {
     color: #0066cc;
-    background-color: #000080;
     text-decoration: none;
-    text-align: center;
     text-decoration: underline;
+    display: block;
 }
+
+td.reflink {
+    background-color: #000080;
+    text-align: center;
+    padding: 10px;
+}
+
 blockquote {
     font-style: italic;
     color: #666;
@@ -47,22 +58,34 @@ h4 {
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
 table {
     border-collapse: collapse;
     width: 100%;
+    margin: 0;
 }
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
 ul {
     list-style-type: disc;
     padding-left: 20px;
 }
+
 image-cell {
     background-image: url('HelloCello.jpg');
 }
+
 th.header-cell {
     background-color: #000080;
     color: black;
     text-align: center;
+    padding: 10px;
 }
+
 a:link {
     color: #fffdfd;
 }
