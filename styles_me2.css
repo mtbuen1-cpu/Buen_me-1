@@ -36,6 +36,7 @@ tr {
 
 tr.small {
     height: 60px
+    padding: 10px;
 }
 
 tr.quote {
@@ -48,13 +49,12 @@ p.profile-info {
 }
 
 a {
-    color: #0066cc;
+    color: #4b4bfc;
     text-decoration: none;
     text-decoration: underline;
     display: block;
     background-color: #000080;
     text-align: center;
-    padding: 10px;
 }
 
 blockquote {
@@ -84,8 +84,13 @@ ul {
     padding-left: 20px;
 }
 
-image-cell {
-    background-image: url('HelloCello.jpg');
+image-cell {  
+    width: 30%;
+    height: 260px;
+    background-image: "HelloCello.jpg";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 th.header-cell {
