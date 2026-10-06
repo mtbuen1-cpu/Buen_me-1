@@ -31,7 +31,11 @@ th {
 }
 
 tr {
-    height: 185px;
+    height: 165px;
+}
+
+tr.small {
+    height: 60px
 }
 
 tr.quote {
@@ -48,9 +52,6 @@ a {
     text-decoration: none;
     text-decoration: underline;
     display: block;
-}
-
-tr.reflink {
     background-color: #000080;
     text-align: center;
     padding: 10px;
@@ -88,7 +89,7 @@ image-cell {
 }
 
 th.header-cell {
-    background-color: #000080;
+    background-color: #4b4bfc;
     color: black;
     text-align: center;
     padding: 10px;
