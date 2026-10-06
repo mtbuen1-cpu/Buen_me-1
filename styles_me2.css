@@ -31,11 +31,11 @@ th {
 }
 
 tr {
-    height: 165px;
+    height: auto;
 }
 
-tr.small {
-    height: 30px
+tr.normal {
+    height: 165px
 }
 
 tr.quote {
