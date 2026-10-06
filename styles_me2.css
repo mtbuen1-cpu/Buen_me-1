@@ -35,8 +35,7 @@ tr {
 }
 
 tr.small {
-    height: 60px
-    padding: 10px;
+    height: 30px
 }
 
 tr.quote {
