@@ -87,10 +87,7 @@ ul {
 image-cell {  
     width: 30%;
     height: 260px;
-    background-image: "HelloCello.jpg";
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding: 0;
 }
 
 th.header-cell {
