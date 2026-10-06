@@ -30,6 +30,14 @@ th {
     padding: 10px;
 }
 
+tr {
+    height: 185px;
+}
+
+tr.quote {
+    height: 240px;
+}
+
 p.profile-info {
     font-weight: bold;
     margin-bottom: 5px;
@@ -42,7 +50,7 @@ a {
     display: block;
 }
 
-td.reflink {
+tr.reflink {
     background-color: #000080;
     text-align: center;
     padding: 10px;
